@@ -58,9 +58,9 @@ footer{
 }
 
 .product-gallery{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
 }
 
 
