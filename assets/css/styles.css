@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    grid-area: header;
+}
+
+menu{
+    grid-area: menu;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "menu main"
+    "footer footer";
+    gap: 10px;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 50px 1fr 50px;
+}
